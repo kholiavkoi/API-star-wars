@@ -10,7 +10,6 @@ body {
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
   background-image: url(../img/bg.jpg);
   background-repeat: no-repeat;
@@ -19,13 +18,12 @@ body {
 }
 .wrapper-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .list-all,
 .list-choosen {
-  padding-left: 20px;
-  padding-top: 20px;
+  padding: 30px;
   min-width: 50%;
 }
 
@@ -75,7 +73,7 @@ li:hover {
 
 #arrow-right:hover,
 #arrow-left:hover {
-  text-shadow: 2px 2px 3px #f58969;
+  text-shadow: 2px 2px 3px #94dee4;
 }
 
 #arrow-left {
