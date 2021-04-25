@@ -1,4 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  font-family: "Stardos Stencil", cursive;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.wrapper-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-all,
+.list-choosen {
+  padding-left: 20px;
+  padding-top: 20px;
+  min-width: 50%;
+}
+
+ul {
+  list-style: none;
+}
+
+li,
+h1 {
+  font-size: 28px;
+}
+
+li,
+span,
+h1 {
+  color: #f5f5f5;
+  text-shadow: 1px 1px 0px #838282;
+  transition: all 0.3s;
+}
+
+#ul-list {
+  margin-bottom: 20px;
+}
+span,
+#ul-list li {
+  display: block;
+  cursor: pointer;
+}
+
+li:hover {
+  text-shadow: 2px 2px 3px #effde9;
+}
+
+.name {
+  border-bottom: 2px solid #fff;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 #arrow-left,
 #arrow-right {
+  font-size: 30px;
+  font-weight: bold;
   display: none;
+}
+
+#arrow-right:hover,
+#arrow-left:hover {
+  text-shadow: 2px 2px 3px #f58969;
+}
+
+#arrow-left {
+  margin-bottom: 10px;
+}
+
+table tr {
+  display: block;
 }

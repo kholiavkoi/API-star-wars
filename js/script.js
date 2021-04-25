@@ -38,22 +38,22 @@ function getBodyHtml(user, id) {
 
 function getBodyDetailsHtml(user) {
   return `<li class="info-list">
-								${user.name}
+								Имя: ${user.name}
 					</li>
 					<li class="info-list">
-								${user.birth_year}
+								Дата рождения: ${user.birth_year}
 					</li>
 					<li class="info-list">
-								${user.gender}
+								Гендер: ${user.gender}
 					</li>
 					<li class="info-list">
-								${user.filmsDetails.map(e => e.title).join(', ')}
+								Фильмы: ${user.filmsDetails.map(e => e.title).join(', ')}
 					</li>
 					<li class="info-list">
-								${user.planetDetails.name}
+								Планета: ${user.planetDetails.name}
 					</li>
 					<li class="info-list">
-								${user.speciesDetails.map(e => e.name).join(', ')}
+								Расса: ${user.speciesDetails.map(e => e.name).join(', ')}
 					</li>`
 }
 
